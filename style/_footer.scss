@@ -1,0 +1,31 @@
+/**
+* Footer section style
+*/
+footer {
+  padding-bottom: 63px;
+  .footer-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .footer-logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      small{
+        opacity: 0.6;
+        margin-top: 6px;
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        li{
+            padding: 10px 20px;
+            a{
+              color: $main-color;
+            }
+        }
+      }
+    }
+  }
+}
